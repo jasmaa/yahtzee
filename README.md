@@ -1,0 +1,3 @@
+# Yahtzee
+
+Simulates yahtzee
