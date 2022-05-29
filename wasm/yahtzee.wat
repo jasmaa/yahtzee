@@ -1,7 +1,7 @@
 (;
 Memory layout:
-|0x00|0x01|...               |$nDice|$nDice+0x01|...                |$nDice+0x06|
-|DDDD|DDDD|DDDD|DDDD|DDDD|...|DDDD  |MMMM       |MMMM|MMMM|MMMM|MMMM|MMMM       |
+|0x00|0x01|...               |$nDice-0x01|$nDice     |...                |$nDice+0x05|
+|DDDD|DDDD|DDDD|DDDD|DDDD|...|DDDD       |MMMM       |MMMM|MMMM|MMMM|MMMM|MMMM       |
 
 D: Dice values (len=nDice)
 M: Count of dice values (len=6)
