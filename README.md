@@ -1,3 +1,3 @@
 # Yahtzee
 
-Simulates yahtzee
+Implementations simulating chance of getting a Yahtzee.

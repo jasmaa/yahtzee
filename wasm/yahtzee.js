@@ -1,5 +1,5 @@
 const fs = require('fs');
-const bytes = fs.readFileSync(__dirname + '/yahtzee-wasm.wasm');
+const bytes = fs.readFileSync(__dirname + '/yahtzee.wasm');
 
 const n = 10000000;
 const importedObject = {
