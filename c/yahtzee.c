@@ -46,16 +46,6 @@ int dice_mode(int *dice, int n_dice)
   return most_common;
 }
 
-void print_dice(int *dice, int n_dice)
-{
-  int i;
-  for (i = 0; i < n_dice; i++)
-  {
-    printf("%d,", dice[i]);
-  }
-  printf("\n");
-}
-
 int yahtzee(int n_dice, int tries)
 {
   int i, j;
