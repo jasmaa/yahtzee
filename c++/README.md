@@ -1,14 +1,12 @@
 # C++
 
-## Getting started
+## Getting Started
 
-Install Boost if not already:
+Download and unzip distribution of Boost if not already:
+https://www.boost.org/users/download/
 
-```
-git clone --recursive https://github.com/boostorg/boost.git
-```
-
-Copy the absolute path where the Boost repository was cloned. This will be `BOOST_PATH`.
+Copy the absolute path where the Boost repository was cloned. This will be
+`BOOST_ROOT`.
 
 Create `.env` from `sample.env`. Fill in variables.
 
